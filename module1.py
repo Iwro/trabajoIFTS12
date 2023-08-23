@@ -12,5 +12,10 @@
 def main():
     print ("hola mundo")
 
+    def saludo(nombre):
+        x = 10
+        print (f"hola {nombre}")
+
+
 if __name__ == '__main__':
     main()
